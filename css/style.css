@@ -3173,3 +3173,102 @@ footer .footer-wechat {
   text-align: center;
   font-size: 24px;
 }
+.gift .wrap {
+  margin-top: 50px;
+}
+.gift .wrap .item {
+  background-color: #fff;
+  border-radius: 10px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  float: left;
+  text-align: center;
+  position: relative;
+}
+.gift .wrap .item img {
+  width: auto;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translateY(-50%) translateX(-50%);
+          transform: translateY(-50%) translateX(-50%);
+}
+.gift .wrap .item .con {
+  width: 100%;
+  position: absolute;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  bottom: 10px;
+}
+.gift .wrap .item .con p {
+  color: #666;
+}
+.gift .wrap .item .con span {
+  color: #bbb;
+}
+.gift .wrap .item.item-1 {
+  width: 835px;
+  height: 305px;
+}
+.gift .wrap .item.item-2 {
+  width: 355px;
+  height: 305px;
+  margin-right: 0;
+  background: url(../img/lipin_10.png) center center / cover no-repeat;
+  padding-top: 80px;
+}
+.gift .wrap .item.item-2 .con {
+  position: static;
+  -webkit-transform: none;
+          transform: none;
+}
+.gift .wrap .item.item-2 .con span {
+  color: #fff;
+}
+.gift .wrap .item.item-2 .con .cn {
+  font-size: 30px;
+}
+.gift .wrap .item.item-2 .con .en {
+  font-size: 16px;
+}
+.gift .wrap .item.item-2 .con a {
+  display: block;
+  width: 190px;
+  height: 50px;
+  line-height: 50px;
+  margin: 30px auto 0;
+  background-color: #fff;
+  border-radius: 25px;
+  color: #9dc915;
+  text-align: center;
+}
+.gift .wrap .item.item-2 .con a i {
+  font-size: 22px;
+}
+.gift .wrap .item.item-2 .con a span {
+  color: #9dc915;
+  font-size: 20px;
+}
+.gift .wrap .item.item-3 {
+  width: 330px;
+  height: 500px;
+}
+.gift .wrap .item.item-4 {
+  width: 345px;
+  height: 245px;
+}
+.gift .wrap .item.item-5 {
+  width: 505px;
+  height: 245px;
+  margin-right: 0;
+}
+.gift .wrap .item.item-6 {
+  width: 445px;
+  height: 245px;
+}
+.gift .wrap .item.item-7 {
+  width: 405px;
+  height: 245px;
+  margin-right: 0;
+}

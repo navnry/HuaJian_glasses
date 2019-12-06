@@ -1541,8 +1541,9 @@ footer {
 .liucheng {
   background: url(../img/liucheng_bg.jpg) center center/cover no-repeat;
 
-  &.inner{
+  &.inner {
     background: #fff;
+
     .plate-title {
       span {
         &::before, &::after {
@@ -1550,20 +1551,24 @@ footer {
         }
       }
     }
-    .main{
+
+    .main {
       padding-bottom: 0;
     }
-    .list{
-      li{
-        .pic{
+
+    .list {
+      li {
+        .pic {
           background-color: @themeColor1;
         }
-        .con{
+
+        .con {
           color: #333;
         }
       }
     }
   }
+
   .main {
     padding: 80px 0;
   }
@@ -3815,11 +3820,122 @@ footer {
   background-image: -webkit-linear-gradient(top, transparent 8px, #e7e7e7 10px),
   -webkit-linear-gradient(left, transparent 8px, #e7e7e7 10px);
   background-size: 10px 10px;
-  .main{
+
+  .main {
     padding: 80px 0;
   }
+
   .plate-desc {
     text-align: center;
     font-size: 24px;
   }
+
+  .wrap {
+    margin-top: 50px;
+
+    .item {
+      background-color: #fff;
+      border-radius: 10px;
+      margin-right: 10px;
+      margin-bottom: 10px;
+      float: left;
+      text-align: center;
+      position: relative;
+
+      img {
+        width: auto;
+        .centerXY();
+      }
+
+      .con {
+        width: 100%;
+        .centerX();
+        bottom: 10px;
+
+        p {
+          color: #666;
+        }
+
+        span {
+          color: #bbb;
+        }
+      }
+
+      &.item-1 {
+        width: 835px;
+        height: 305px;
+      }
+
+      &.item-2 {
+        width: 355px;
+        height: 305px;
+        margin-right: 0;
+        background: url(../img/lipin_10.png) center center/cover no-repeat;
+        padding-top: 80px;
+        .con {
+          position: static;
+          transform: none;
+
+
+          span {
+            color: #fff;
+          }
+          .cn{
+            font-size: 30px;
+          }
+          .en{
+            font-size: 16px;
+          }
+          a{
+            display: block;
+            width: 190px;
+            height: 50px;
+            line-height: 50px;
+            margin: 30px auto 0;
+            background-color: #fff;
+            border-radius: 25px;
+            color: @themeColor1;
+            text-align: center;
+            i{
+              font-size: 22px;
+            }
+           span{
+              color: @themeColor1;
+              font-size: 20px;
+
+            }
+          }
+        }
+      }
+
+      &.item-3 {
+        width: 330px;
+        height: 500px;
+      }
+
+      &.item-4 {
+        width: 345px;
+        height: 245px;
+      }
+
+      &.item-5 {
+        width: 505px;
+        height: 245px;
+        margin-right: 0;
+      }
+
+      &.item-6 {
+        width: 445px;
+        height: 245px;
+      }
+
+      &.item-7 {
+        width: 405px;
+        height: 245px;
+        margin-right: 0;
+      }
+
+    }
+  }
+
 }
