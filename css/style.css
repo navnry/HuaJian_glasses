@@ -148,7 +148,7 @@ header .header-main .header-contact .wechat p {
   display: block;
   line-height: 42px;
   color: #fff;
-  padding: 0 16px;
+  padding: 0 14px;
 }
 #nav .nav-wrap span.abg {
   position: absolute;
@@ -1218,6 +1218,22 @@ footer .footer-wechat {
 .liucheng {
   background: url(../img/liucheng_bg.jpg) center center / cover no-repeat;
 }
+.liucheng.inner {
+  background: #fff;
+}
+.liucheng.inner .plate-title span::before,
+.liucheng.inner .plate-title span::after {
+  display: block;
+}
+.liucheng.inner .main {
+  padding-bottom: 0;
+}
+.liucheng.inner .list li .pic {
+  background-color: #9dc915;
+}
+.liucheng.inner .list li .con {
+  color: #333;
+}
 .liucheng .main {
   padding: 80px 0;
 }
@@ -2170,10 +2186,6 @@ footer .footer-wechat {
 .hj-form .main {
   padding: 80px 0;
 }
-.hj-form .plate-title span::before,
-.hj-form .plate-title span::after {
-  display: none;
-}
 .hj-form .plate-desc {
   text-align: center;
   margin-top: 10px;
@@ -2945,4 +2957,219 @@ footer .footer-wechat {
   text-align: center;
   line-height: 35px;
   color: #fff;
+}
+.list-product .wrap {
+  padding-top: 30px;
+  padding-bottom: 80px;
+}
+.list-product .left-bar {
+  width: 240px;
+}
+.list-product .left-bar .item {
+  margin-bottom: 20px;
+}
+.list-product .left-bar .item.first .tops {
+  height: 100px;
+  background: url(../img/left_bar_bg.png) center center / cover no-repeat;
+  text-align: center;
+  color: #fff;
+  padding-top: 20px;
+}
+.list-product .left-bar .item.first .tops .cn {
+  font-size: 26px;
+  font-weight: bold;
+}
+.list-product .left-bar .item.first .tops .en {
+  font-size: 14px;
+}
+.list-product .left-bar .item.first .children {
+  background-color: #e5e5e5;
+  padding-bottom: 20px;
+}
+.list-product .left-bar .item.first .children ul {
+  padding: 5px 15px;
+  background-color: #f7f7f7;
+}
+.list-product .left-bar .item.first .children li {
+  border-bottom: dashed 1px #e5e5e5;
+}
+.list-product .left-bar .item.first .children li:last-child {
+  border-bottom: 0;
+}
+.list-product .left-bar .item.first .children a {
+  line-height: 60px;
+  display: block;
+  color: #666;
+  font-size: 18px;
+  padding-left: 20px;
+  position: relative;
+  -webkit-transition-duration: .2s;
+          transition-duration: .2s;
+}
+.list-product .left-bar .item.first .children a.active,
+.list-product .left-bar .item.first .children a:hover {
+  color: #9dc915;
+}
+.list-product .left-bar .item.first .children a.active:before,
+.list-product .left-bar .item.first .children a:hover:before {
+  background-color: #9dc915;
+}
+.list-product .left-bar .item.first .children a::before {
+  content: '';
+  display: block;
+  width: 8px;
+  height: 8px;
+  background-color: #bfbfbf;
+  border-radius: 50%;
+  left: 0;
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  -webkit-transition-duration: .2s;
+          transition-duration: .2s;
+}
+.list-product .left-bar .item.other {
+  background-color: #9dc915;
+  padding: 0 15px;
+}
+.list-product .left-bar .item.other a {
+  display: block;
+  color: #fff;
+  line-height: 78px;
+  font-size: 20px;
+}
+.list-product .left-bar .item.other i {
+  float: right;
+  font-size: 26px;
+}
+.list-product .left-bar .item.xcx {
+  background-color: #f7f7f7;
+}
+.list-product .left-bar .item.xcx .con {
+  padding: 40px 28px;
+  text-align: center;
+}
+.list-product .left-bar .item.xcx .con p {
+  font-size: 18px;
+  color: #333;
+}
+.list-product .left-bar .item.xcx .con b {
+  color: #c30f23;
+  font-weight: normal;
+}
+.list-product .left-bar .item.xcx .con img {
+  display: block;
+  margin: 15px 0;
+}
+.list-product .left-bar .item.xcx .tel {
+  background-color: #e5e5e5;
+  line-height: 40px;
+  font-size: 16px;
+  color: #c30f23;
+  text-align: center;
+}
+.list-product .list {
+  width: 905px;
+}
+.list-product .list .product-profile {
+  padding: 20px 40px;
+  border: solid 1px #eee;
+  margin-bottom: 25px;
+}
+.list-product .list .product-profile p {
+  font-size: 24px;
+  color: #666;
+  background-image: url(../img/product_profile_bg.png);
+  background-repeat: no-repeat;
+  background-position: 110px 16px;
+  margin-bottom: 5px;
+}
+.list-product .list .product-profile span {
+  font-size: 14px;
+  color: #999;
+}
+.list-product .list li {
+  border: solid 1px #e5e5e5;
+  width: 285px;
+  overflow: hidden;
+  -webkit-transition-duration: .3s;
+          transition-duration: .3s;
+  float: left;
+  margin-right: 25px;
+  margin-bottom: 25px;
+}
+.list-product .list li:nth-child(3n) {
+  margin-right: 0;
+}
+.list-product .list li:nth-child(3) ~ li {
+  margin-bottom: 0;
+}
+.list-product .list li:hover {
+  -webkit-box-shadow: 0 4px 16px 4px rgba(68, 68, 68, 0.16);
+          box-shadow: 0 4px 16px 4px rgba(68, 68, 68, 0.16);
+  border-color: #9dc915;
+}
+.list-product .list li:hover .con .tit {
+  color: #9dc915;
+}
+.list-product .list li .pic {
+  height: 200px;
+}
+.list-product .list li .pic img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+}
+.list-product .list li .con {
+  text-align: center;
+  padding: 20px;
+}
+.list-product .list li .con .tit {
+  font-size: 18px;
+  color: #333;
+  margin-bottom: 10px;
+  -webkit-transition-duration: .3s;
+          transition-duration: .3s;
+}
+.list-product .list li .con .params span {
+  display: block;
+  font-size: 14px;
+  color: #666;
+  line-height: 30px;
+}
+.list-product .list li .con .btn {
+  width: 100px;
+  height: 30px;
+  background-color: #fff;
+  margin: 10px auto 0;
+}
+.list-product .list li .con .btn a {
+  display: block;
+  font-size: 14px;
+  -webkit-transition-duration: .2s;
+          transition-duration: .2s;
+  line-height: 28px;
+  border-radius: 14px;
+  border: solid 1px #ddd;
+}
+.list-product .list li .con .btn a:hover {
+  color: #9dc915;
+  border-color: #9dc915;
+}
+.gift {
+  background-color: #eee;
+  background-image: -webkit-linear-gradient(top, transparent 8px, #e7e7e7 10px), -webkit-linear-gradient(left, transparent 8px, #e7e7e7 10px);
+  background-size: 10px 10px;
+}
+.gift .main {
+  padding: 80px 0;
+}
+.gift .plate-desc {
+  text-align: center;
+  font-size: 24px;
 }
